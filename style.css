@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* 좌우 여백 */
+    box-sizing: border-box;
+}
+
+.Main-Logo {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 230px;
+}
+
+.Edu-Btn {
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: #25262B;
+    font-size: 14px;
+}
+
+.seperate {
+    margin: 0 8px;
+    padding: 0;
+    color: #D5DBED;
+}
+
+.Career-Logo {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.Car-Btn {
+    border: none;
+    background-color: white;
+    color: #868E92;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Meun {
+    margin-left: 950px;; 
+    display: flex;
+    gap: 5px; 
+    
+
+}
+
+.Meun button {
+    border: none;
+    background-color: white;
+    color : #1A1B1E;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    padding: 0 10px;
+}
+
+.Meun button:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    color: #ccc;
+}
