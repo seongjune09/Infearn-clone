@@ -119,7 +119,7 @@ html, body {
     height : 17px;
     border-radius : 9px;
     background-color : #F6F6F6;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 15px -5px;
+    box-shadow: black;
 }
 
 .Korean-Container {
@@ -314,8 +314,8 @@ html, body {
   
 .course-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);  /* 4개씩 정렬 */
-  gap: 20px;                               /* 카드 간 간격 */
+  grid-template-columns: repeat(4, 1fr);  
+  gap: 20px;                               
   padding: 20px;
 }
 
@@ -330,8 +330,8 @@ html, body {
 }
 
 .course-card img {
-  width: 100%;     /* 카드 너비에 꽉 차게 */
-  height: auto;    /* 비율 유지 */
+  width: 100%;     
+  height: auto;    
   display: block;
 }
 
@@ -391,7 +391,7 @@ html, body {
 }
 
 .share-container {
-    gap: 24px;               /* 각 프로필 간격 */
+    gap: 24px;               
     padding: 60px;
     background-color: #F1F3F5;
     position: relative;
@@ -402,4 +402,62 @@ html, body {
     position: relative;
     left : -100px;
     bottom : -50px;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    width: 100%;    /* 리스트 전체 폭 고정 */
+    box-sizing: border-box;
+  }
+
+  .Num-Btn {
+    margin-left : 780px;
+    border : none;
+  }
+
+  .NUm-Btn {
+    border : 1px solid gray;
+    background-color: white; 
+    width : 40px;
+    padding : 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+.NUM-Btn {
+    border : none;
+    background-color: white; 
+    width : 40px;
+    padding : 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer-div {
+    background-color: #25262B;
+    padding : 200px;
+
+}
+
+.infearn {
+    font-size : 20px;
+    color : white;
+    position: relative;
+    top : -20px;
+}
+
+.in {
+    color :#ccc;
+}
+
+.apply {
+    font-size : 20px;
+    color : white;
+}
+
+.ap {
+    color :#ccc;
 }
