@@ -402,6 +402,7 @@ html, body {
     position: relative;
     left : -100px;
     bottom : -50px;
+    cursor: pointer;
 }
 
 .course-list {
@@ -414,8 +415,9 @@ html, body {
   }
 
   .Num-Btn {
-    margin-left : 780px;
+    margin-left : 660px;
     border : none;
+    padding : 40px;
   }
 
   .NUm-Btn {
@@ -461,5 +463,6 @@ html, body {
 .footer-div p:not(:first-child) {
     font-size: 14px;
     line-height: 1.8;
+    cursor: pointer;
 }
 
