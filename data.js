@@ -120,33 +120,3 @@ const data = [
   }
 ]
 
-//   {
-//     id: 9,
-//     title: "비전공자 혼자서 하루 만에 수익화 앱 출시하기",
-//     teacher: "김은찬",
-//     price: {
-//       original: 132000,
-//       discount: null,
-//       final: 132000
-//     },
-//     rating: { score: 5.0, count: 16 },
-//     students: "200+",
-//     tags: ["Update", "답변 활발"],
-//     img: "https://cdn.inflearn.com/public/files/courses/337079/cover/01k1q7jmeswm723j7b4b33a5ty?f=avif&w=420"
-//   },
-
-//   {
-//     id: 10,
-//     title: "[2025] 비전공자도 한 번에 합격하는 SQLD 올인원",
-//     teacher: "데이터코드랩",
-//     price: {
-//       original: 79200,
-//       discount: "25",
-//       final: 59400
-//     },
-//     rating: { score: 4.7, count: 14 },
-//     students: "100+",
-//     tags: ["Update", "답변 활발"],
-//     img: "https://cdn.inflearn.com/public/files/courses/336953/cover/01jr02gfpt2km3k50amyw7sttt?f=avif&w=420"
-//   },
-// ];

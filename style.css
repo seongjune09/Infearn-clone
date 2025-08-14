@@ -371,10 +371,10 @@ html, body {
     display: flex;
     align-items: center;       
     justify-content: center;   
-    margin : 60px 300px;
+    margin : 60px 200px;
     position: relative;
     bottom : -50px;
-    right : -70px;
+    right : -30px;
 
 
 }
@@ -437,27 +437,29 @@ html, body {
 }
 
 .footer-div {
-    background-color: #25262B;
-    padding : 200px;
-
+    display: flex;             
+    justify-content: space-between;
+    padding: 120px 50px;
+    background-color: #323846;  
+    color: #a7a7a7;             
+   
 }
 
-.infearn {
-    font-size : 20px;
-    color : white;
-    position: relative;
-    top : -20px;
+.footer-div > div,
+.footer-div > p {
+    display: flex;
+    flex-direction: column;     
 }
 
-.in {
-    color :#ccc;
+.footer-div p:first-child {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
-.apply {
-    font-size : 20px;
-    color : white;
+.footer-div p:not(:first-child) {
+    font-size: 14px;
+    line-height: 1.8;
 }
 
-.ap {
-    color :#ccc;
-}
