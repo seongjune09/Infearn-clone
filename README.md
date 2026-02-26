@@ -13,7 +13,7 @@ HTML/CSS/JavaScript를 활용하여 프론트엔드 퍼블리싱을 구현했으
 
 ---
 
-# ⚙️기술적 구현
+# 기술적 구현
 
 ## (1) 동적 콘텐츠 렌더링
 
@@ -96,7 +96,7 @@ const courses = [
 
 ---
 
-# 👍🏻 느낀 점 및 배운 점
+# 🍀 느낀 점 및 배운 점
 이번 인프런 클론 코딩을 통해 CSS와 JavaScript를 활용하며 언어 활용 능력을 향상시킬 수 있었습니다.
 특히 프로그래밍 수업 시간에 배운 배열 자료구조를 웹 개발에 직접 적용해보며, 데이터 관리의 중요성과 효율성을 체감했습니다.
 앞으로의 프로젝트에서도 이러한 패턴을 적극 활용할 수 있는 기반을 마련했습니다.<br>
@@ -104,7 +104,7 @@ const courses = [
 
 ---
 
-# 🛠 기술 스택
+# 기술 스택
 
 <img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg" /><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg" /><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
 
